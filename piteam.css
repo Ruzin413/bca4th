@@ -1,0 +1,81 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+  }
+  
+  .main-content {
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #007bff;
+  }
+  
+  .content {
+    overflow-x: auto;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid #dee2e6;
+    padding: 12px 15px;
+    text-align: left;
+    vertical-align: middle;
+  }
+  
+  .table th {
+    background-color: #e9ecef;
+    font-weight: 500;
+    color: #495057;
+  }
+  
+  .table tr:nth-child(even) {
+    background-color: #f8f9fa;
+  }
+  
+  .btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    color: #ffffff;
+  }
+  
+  .btn-delete {
+    background-color: #dc3545;
+  }
+  
+  .btn-delete:hover {
+    background-color: #c82333;
+    transform: translateY(-2px);
+  }
+  

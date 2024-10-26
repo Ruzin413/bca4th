@@ -1,0 +1,89 @@
+
+body, h1, h2, h3, p, ul, ol, li, figure, figcaption, div, span, a, img, table, td, th, tr, button, input {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+
+.main-content {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.item-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.quantity-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quantity-container button {
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.quantity-container .decrement {
+  background-color: red;
+}
+
+.quantity-container .increment {
+  background-color: green;
+}
+
+.quantity-container .quantity-input {
+  width: 40px;
+  text-align: center;
+  margin: 0 5px;
+  border: 1px solid #ccc;
+}
+
+
+.buy-all-btn {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buy-all-btn:hover {
+  background-color: darkgreen;
+}
